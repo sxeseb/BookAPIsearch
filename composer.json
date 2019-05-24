@@ -1,0 +1,12 @@
+{
+    "name": "sebast/recherche",
+    "authors": [
+        {
+            "name": "Sebastien Guerin",
+            "email": "sebast.guerin@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
