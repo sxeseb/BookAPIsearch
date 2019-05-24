@@ -10,7 +10,6 @@ $retour ="";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $title = $_POST['search'];
 
-
     $client = new GuzzleHttp\Client([
     'base_uri' => 'https://www.googleapis.com/books/v1/'
     ]);
@@ -51,8 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $books[$i]['img_couverture'] = $thumb;
                 $books[$i]['pages'] = $pages;
             }
-        } else {
-
         }
     }
 }

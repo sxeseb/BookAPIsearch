@@ -24,14 +24,16 @@ require './src/api.php';
             <div class="card-header">
                 search
             </div>
-            <div class="card-body">
-                <form method="POST" action="index.php" class="">
-                    <div class="form-group">
-                        <label for="search">Name or ISBN</label>
-                        <input class="form-control" type="text" name="search"  id="search" required>
-                    </div>
-                    <button class="btn btn-primary justify-content-end" value="search" name="submit" type="submit">Find a book</button>
-                </form>
+            <div class="card-body d-flex justify-content-center">
+                <div class="col-10">
+                    <form method="POST" action="index.php" class="">
+                        <div class="form-group">
+                            <label for="search">Name or ISBN</label>
+                            <input class="form-control" type="text" name="search"  id="search" required>
+                        </div>
+                        <button class="btn btn-primary justify-content-end" value="search" name="submit" type="submit">Find a book</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
